@@ -1,0 +1,55 @@
+@import "./constants.scss";
+
+*,
+::before,
+::after {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $bg-color;
+    color: $txt-color;
+}
+
+// Part of header
+
+header {
+    padding: 1.5em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+}
+
+img {
+    background-color: $secondary-color;
+    height: 40px;
+    width: 40px;
+    margin-left: 1em;
+}
+
+#choiceSelection {
+    margin-right: 1.4em;
+}
+
+// Part reset styles
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: $txt-color;
+    text-decoration: none;
+}
